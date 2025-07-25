@@ -12,7 +12,7 @@ html {
 }
 
 #hero {
-    height: 85vh;
+    /* height: 85vh; */
     background-color: #e3fff5;
 }
 
@@ -54,6 +54,7 @@ h2>span {
 #hero .img-1 img {
     object-fit: cover;
     height: 30rem;
+    width: 30rem;
 }
 
 #aboutme {
@@ -151,7 +152,7 @@ h2>span {
     padding: 1rem 2rem;
     color: aliceblue;
     text-transform: uppercase;
-    border-radius: 10px;
+    border-radius: 1.3rem;
 }
 
 #contact a:hover {
@@ -184,4 +185,17 @@ h2>span {
 #socials p {
     color: aliceblue;
     padding-bottom: 2rem;
+}
+
+@media (max-width: 567px) {
+    #hero .img-1 img {
+        height: 20rem;
+        width: 20rem;
+        display: block;
+    }
+
+    #aboutme img {
+        height: 12rem;
+        width: 12rem;
+    }
 }
