@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "GFS Didot", serif;
+    text-align: center;
+}
+
+#hero {
+    height: 85vh;
+    background-color: #e3fff5;
+}
+
+#hero .title {
+    padding-top: 4rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-style: normal;
+    padding: 3rem;
+    color: #285943;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #77AF9C;
+}
+
+h2>span {
+    text-decoration: underline;
+}
+
+
+#hero .img-1 {
+    margin: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+#hero .img-1 img {
+    object-fit: cover;
+    height: 30rem;
+}
+
+#aboutme {
+    margin-top: 8rem;
+}
+
+#aboutme img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#aboutme h2 {
+    margin: 1.5rem 0 2rem 0;
+}
+
+#aboutme .intro {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.dot {
+    border: 0.5rem dotted #77AF9C;
+    border-bottom: none;
+    width: 10rem;
+    margin: 10rem auto 10rem;
+    opacity: 0.2;
+}
+
+#work .list-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+#work h2 {
+    margin-bottom: 5rem;
+}
+
+#work .project {
+    width: 50%;
+    text-align: left;
+}
+
+#work .project h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3f7865;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+#work .project p {
+    font-size: 1.1rem;
+}
+
+#work img {
+    height: 15rem;
+    width: 17rem;
+    float: left;
+    margin-right: 3rem;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+#contact h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3f7865;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#contact p {
+    font-size: 1.3rem;
+}
+
+#contact .contact-button {
+    margin: 5rem 0;
+}
+
+#contact a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #1aa366;
+    padding: 1rem 2rem;
+    color: aliceblue;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+#contact a:hover {
+    background-color: #19bc72;
+}
+
+#socials {
+    background-color: #4c8f78;
+}
+
+#socials .list-socials {
+    margin-top: 2rem;
+    padding: 3rem 0 2rem 0;
+    display: flex;
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+#socials .list-socials a {
+    text-decoration: none;
+    color: #1f493b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+#socials .list-socials a:hover {
+    color: #fff;
+}
+
+#socials p {
+    color: aliceblue;
+    padding-bottom: 2rem;
+}
